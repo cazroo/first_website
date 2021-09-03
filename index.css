@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hina Mincho', serif;
+    background-color: #F1F1F1;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;  
+}
+p{
+    color:black
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 50px;
+}
+.row{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.middle{
+background-color: #C695B8;
+}
+h1{
+    color: #5e320d;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.categories{
+    margin: 70px 0;
+}
+.col1{
+    flex-basis: 25%;
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.col1 img{
+    width: 265px;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+}
+.col2{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col2 img{
+    width:100%;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.5;
+}
+.title{
+    text-align: center;
+    margin: 0 and 80px;
+    position: relative;
+    line-height: 50px;
+    font-size: 35px;
+    color:black;
+}
+.title::after{
+    content: '';
+    background:#66C891;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: black;
+}
+
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 50px;
+    background-color:black;
+  }
